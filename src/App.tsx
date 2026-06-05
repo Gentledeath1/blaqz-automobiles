@@ -26,7 +26,7 @@ export default function App() {
     <>
       <Navbar />
       <main>
-        <section className="relative min-h-screen flex items-end pb-24 overflow-hidden">
+        <section className="relative min-h-screen flex items-end overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
               src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&q=80"
@@ -36,12 +36,12 @@ export default function App() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
           </div>
 
-          <div className="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 w-full top-24 lg:top-26">
+          <div className="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 w-full py-24 lg:py-32">
             <div className="max-w-3xl">
               <span className="uppercase tracking-[0.35em] text-[11px] text-white/50">
                 Luxury Automobile Dealership · Lagos, Nigeria
               </span>
-              <h1 className="mt-6 text-[64px] md:text-[100px] leading-none font-light text-white">
+              <h1 className="mt-6 text-[56px] md:text-[100px] leading-none font-light text-white">
                 Blaqz
                 <br />
                 <span className="italic text-[#c6a972]">Automobiles.</span>
@@ -68,7 +68,7 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-12 mt-20 pt-10 border-t border-white/10">
+            <div className="flex flex-wrap gap-12 mt-16 pt-10 border-t border-white/10">
               {[
                 { value: "500+", label: "Cars Sold" },
                 { value: "8+", label: "Years in Business" },
