@@ -36,7 +36,7 @@ export default function App() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
           </div>
 
-          <div className="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 w-full top-14 lg:top-26">
+          <div className="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 w-full top-24 lg:top-26">
             <div className="max-w-3xl">
               <span className="uppercase tracking-[0.35em] text-[11px] text-white/50">
                 Luxury Automobile Dealership · Lagos, Nigeria
